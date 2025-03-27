@@ -1,0 +1,307 @@
+{
+    "asn_type": "spec3",
+    "asn_rule": "candidate_Asn_Lv3MIRMRS",
+    "version_id": "20250107t211912",
+    "code_version": "1.16.1",
+    "degraded_status": "No known degraded exposures in association.",
+    "program": "01328",
+    "constraints": "DMSAttrConstraint({'name': 'program', 'sources': ['program'], 'value': '1328'})\nDMSAttrConstraint({'name': 'instrument', 'sources': ['instrume'], 'value': 'miri'})\nDMSAttrConstraint({'name': 'acdirect', 'sources': ['asn_candidate'], 'value': \"\\\\[\\\\('c\\\\d{4}', 'direct_image'\\\\)\\\\]\"})\nSimpleConstraint({'name': 'target', 'value': None})\nDMSAttrConstraint({'name': 'target', 'sources': ['targetid'], 'value': '14'})\nDMSAttrConstraint({'name': 'exp_type', 'sources': ['exp_type'], 'value': 'mir_mrs'})\nConstraint_Obsnum({'name': 'obs_num', 'sources': ['obs_num'], 'value': None})\nConstraint_TargetAcq({'name': 'target_acq', 'value': 'target_acquisition'})\nDMSAttrConstraint({'name': 'acq_obsnum', 'sources': ['obs_num'], 'value': <function AsnMixin_Science.__init__.<locals>.<lambda> at 0x149eb193dee0>})\nDMSAttrConstraint({'name': 'asn_candidate', 'sources': ['asn_candidate'], 'value': \"\\\\('c1006',\\\\ 'background'\\\\)\"})",
+    "asn_id": "c1006",
+    "target": "t014",
+    "asn_pool": "jw01328_20250107t211912_pool.csv",
+    "products": [
+        {
+            "name": "jw01328-c1006_t014_miri",
+            "members": [
+                {
+                    "expname": "jw01328015001_02101_00001_mirifulong_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02101_00001_mirifushort_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02101_00002_mirifulong_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02101_00002_mirifushort_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02101_00003_mirifulong_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02101_00003_mirifushort_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02101_00004_mirifulong_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02101_00004_mirifushort_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02103_00001_mirifulong_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02103_00001_mirifushort_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02103_00002_mirifulong_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02103_00002_mirifushort_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02103_00003_mirifulong_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02103_00003_mirifushort_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02103_00004_mirifulong_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02103_00004_mirifushort_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02105_00001_mirifulong_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02105_00001_mirifushort_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02105_00002_mirifulong_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02105_00002_mirifushort_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02105_00003_mirifulong_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02105_00003_mirifushort_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02105_00004_mirifulong_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328015001_02105_00004_mirifushort_cal.fits",
+                    "exptype": "science",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02101_00001_mirifulong_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02101_00001_mirifushort_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02101_00002_mirifulong_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02101_00002_mirifushort_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02101_00003_mirifulong_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02101_00003_mirifushort_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02101_00004_mirifulong_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02101_00004_mirifushort_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02103_00001_mirifulong_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02103_00001_mirifushort_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02103_00002_mirifulong_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02103_00002_mirifushort_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02103_00003_mirifulong_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02103_00003_mirifushort_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02103_00004_mirifulong_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02103_00004_mirifushort_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02105_00001_mirifulong_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02105_00001_mirifushort_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02105_00002_mirifulong_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02105_00002_mirifushort_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02105_00003_mirifulong_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02105_00003_mirifushort_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02105_00004_mirifulong_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                },
+                {
+                    "expname": "jw01328016001_02105_00004_mirifushort_x1d.fits",
+                    "exptype": "background",
+                    "exposerr": "null",
+                    "asn_candidate": "[('c1006', 'background')]"
+                }
+            ]
+        }
+    ]
+}
