@@ -1,18 +1,18 @@
 {
     "products": [
         {
-            "name": "Ring1",
+            "name": "NGC7469",
             "members": [
                 {
-                    "expname": "CH1_ring1.fits",
+                    "expname": "jw01328-c1006_t014_miri_ch1-shortmediumlong_x1d.fits",
                     "exptype": "science"
                 },
                 {
-                    "expname": "CH2_ring1.fits",
+                    "expname": "jw01328-c1006_t014_miri_ch2-shortmediumlong_x1d.fits",
                     "exptype": "science"
                 },
                 {
-                    "expname": "CH3_ring1.fits",
+                    "expname": "jw01328-c1006_t014_miri_ch3-shortmediumlong_x1d.fits",
                     "exptype": "science"
                 }
             ]
