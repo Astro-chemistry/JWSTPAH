@@ -1,0 +1,28 @@
+{
+    "asn_type": "spec",
+    "asn_rule": "combine1d",
+    "asn_id": "aRing6",
+    "program": "12345",
+    "target": "NGC7469",
+    "asn_pool": "auto-gen",
+    "version_id": "1.0",
+    "products": [
+        {
+            "name": "Ring6",
+            "members": [
+                {
+                    "expname": "CH1_ring6.fits",
+                    "exptype": "science"
+                },
+                {
+                    "expname": "CH2_ring6.fits",
+                    "exptype": "science"
+                },
+                {
+                    "expname": "CH3_ring6.fits",
+                    "exptype": "science"
+                }
+            ]
+        }
+    ]
+}

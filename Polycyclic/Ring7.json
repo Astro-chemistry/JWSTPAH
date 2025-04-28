@@ -1,0 +1,28 @@
+{
+    "asn_type": "spec",
+    "asn_rule": "combine1d",
+    "asn_id": "aRing7",
+    "program": "12345",
+    "target": "NGC7469",
+    "asn_pool": "auto-gen",
+    "version_id": "1.0",
+    "products": [
+        {
+            "name": "Ring7",
+            "members": [
+                {
+                    "expname": "CH1_ring7.fits",
+                    "exptype": "science"
+                },
+                {
+                    "expname": "CH2_ring7.fits",
+                    "exptype": "science"
+                },
+                {
+                    "expname": "CH3_ring7.fits",
+                    "exptype": "science"
+                }
+            ]
+        }
+    ]
+}

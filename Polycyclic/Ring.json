@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "name": "Ring1",
+            "members": [
+                {
+                    "expname": "CH1_ring1.fits",
+                    "exptype": "science"
+                },
+                {
+                    "expname": "CH2_ring1.fits",
+                    "exptype": "science"
+                },
+                {
+                    "expname": "CH3_ring1.fits",
+                    "exptype": "science"
+                }
+            ]
+        }
+    ],
+    "asn_pool": "placeholder_pool"
+}
