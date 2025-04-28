@@ -1,4 +1,8 @@
-# JWST PAH Analysis – NGC 7469
+# 🌌WS JWST PAH Analysis Project
+_A Study of Polycyclic Aromatic Hydrocarbons in NGC 7469_
+
+---
+
 
 ![License](https://img.shields.io/github/license/Astro-cat-mistry/JWSTPAH)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
