@@ -1,4 +1,4 @@
-# WS JWST PAH Analysis Project
+# JWST PAH Analysis Project
 _A Study of Polycyclic Aromatic Hydrocarbons_
 
 ---
