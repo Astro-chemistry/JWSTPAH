@@ -1,5 +1,6 @@
 # JWST PAH Analysis Project
 _A Study of Polycyclic Aromatic Hydrocarbons_
+---
 Lili chismosa why are you reading this
 ---
 
@@ -40,14 +41,6 @@ This project utilizes the MIRI public database to study mid-IR PAH emission in n
 
 ---
 
-## Installation
-
-Clone the repository:
-```bash
-git clone https://github.com/Astro-cat-mistry/JWSTPAH.git
-cd JWSTPAH
-pip install -r requirements.txt
-
 ## Data Files
 
 The following large JWST MIRI 3D spectral cubes are required for some notebooks.  
@@ -60,3 +53,12 @@ Due to GitHub's file size limits, these files are hosted on Google Drive:
 | `jw01328-c1006_t014_miri_ch3-shortmediumlong_s3d.fits` | Channel 3 spectral cube | [Download](https://drive.google.com/uc?export=download&id=1WNcNXjOdLMEKJT_kXz5KXXCqgtDyaBN2) |
 
 👉 Place these files inside the `3_Hydrocarbons/` folder before running the notebooks.
+
+## Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/Astro-cat-mistry/JWSTPAH.git
+cd JWSTPAH
+pip install -r requirements.txt
+
