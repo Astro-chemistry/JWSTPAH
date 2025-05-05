@@ -11,15 +11,15 @@
             "name": "Ring4",
             "members": [
                 {
-                    "expname": "CH1_ring4.fits",
+                    "expname": "C:\\Users\\Juan\\Downloads\\Research\\JWSTPAH\\3_Hydrocarbons\\CH1_ring4.fits",
                     "exptype": "science"
                 },
                 {
-                    "expname": "CH2_ring4.fits",
+                    "expname": "C:\\Users\\Juan\\Downloads\\Research\\JWSTPAH\\3_Hydrocarbons\\CH2_ring4.fits",
                     "exptype": "science"
                 },
                 {
-                    "expname": "CH3_ring4.fits",
+                    "expname": "C:\\Users\\Juan\\Downloads\\Research\\JWSTPAH\\3_Hydrocarbons\\CH3_ring4.fits",
                     "exptype": "science"
                 }
             ]
