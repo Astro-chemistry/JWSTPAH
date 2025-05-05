@@ -47,3 +47,16 @@ Clone the repository:
 git clone https://github.com/Astro-cat-mistry/JWSTPAH.git
 cd JWSTPAH
 pip install -r requirements.txt
+
+## Data Files
+
+The following large JWST MIRI 3D spectral cubes are required for some notebooks.  
+Due to GitHub's file size limits, these files are hosted on Google Drive:
+
+| File | Description | Download Link |
+|:-----|:------------|:--------------|
+| `jw01328-c1006_t014_miri_ch1-shortmediumlong_s3d.fits` | Channel 1 spectral cube | [Download](https://drive.google.com/uc?export=download&id=1-dh21pp5fm88m538zmro95k-o_J65Rsq) |
+| `jw01328-c1006_t014_miri_ch2-shortmediumlong_s3d.fits` | Channel 2 spectral cube | [Download](https://drive.google.com/uc?export=download&id=1kn3ZYmedyVoCAvyHbS6iYPcUnMNQH8rK) |
+| `jw01328-c1006_t014_miri_ch3-shortmediumlong_s3d.fits` | Channel 3 spectral cube | [Download](https://drive.google.com/uc?export=download&id=1WNcNXjOdLMEKJT_kXz5KXXCqgtDyaBN2) |
+
+👉 Place these files inside the `3_Hydrocarbons/` folder before running the notebooks.
