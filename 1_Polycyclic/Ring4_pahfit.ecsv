@@ -1,0 +1,73 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: name, datatype: string}
+# - {name: group, datatype: string}
+# - {name: kind, datatype: string}
+# - {name: temperature, unit: K, datatype: string, format: 0.4g, subtype: 'int32[3]'}
+# - {name: tau, datatype: string, format: 0.4g, subtype: 'float64[3]'}
+# - {name: wavelength, unit: um, datatype: string, format: 0.4g, subtype: 'float64[3]'}
+# - {name: power, datatype: string, format: 0.4g, subtype: 'float64[3]'}
+# - {name: fwhm, unit: um, datatype: string, format: 0.4g, subtype: 'float64[3]'}
+# - {name: model, datatype: string}
+# - {name: geometry, datatype: string}
+# meta: !!omap
+# - user_unit:
+#     flux: !astropy.units.Unit {unit: Jy}
+# - {redshift: jwst.miri.*.*}
+# - {instrument: 0.01626799999999995}
+# schema: astropy-2.0
+name group kind temperature tau wavelength power fwhm model geometry
+starlight _none_ starlight [5000,null,null] [6.844938141785349e-13,0.0,Infinity] [null,null,null] [null,null,null] [null,null,null] "" ""
+dust_cont00 dust_cont dust_continuum [300,null,null] [1.3222696005018988e-09,0.0,Infinity] [null,null,null] [null,null,null] [null,null,null] "" ""
+dust_cont01 dust_cont dust_continuum [200,null,null] [0.0,0.0,Infinity] [null,null,null] [null,null,null] [null,null,null] "" ""
+dust_cont02 dust_cont dust_continuum [135,null,null] [3.582001843189993e-07,0.0,Infinity] [null,null,null] [null,null,null] [null,null,null] "" ""
+dust_cont03 dust_cont dust_continuum [90,null,null] [0.0,0.0,Infinity] [null,null,null] [null,null,null] [null,null,null] "" ""
+dust_cont04 dust_cont dust_continuum [65,null,null] [0.0,0.0,Infinity] [null,null,null] [null,null,null] [null,null,null] "" ""
+dust_cont05 dust_cont dust_continuum [50,null,null] [0.007753724592872328,0.0,Infinity] [null,null,null] [null,null,null] [null,null,null] "" ""
+dust_cont06 dust_cont dust_continuum [40,null,null] [0.0,0.0,Infinity] [null,null,null] [null,null,null] [null,null,null] "" ""
+dust_cont07 dust_cont dust_continuum [35,null,null] [0.0,0.0,Infinity] [null,null,null] [null,null,null] [null,null,null] "" ""
+H2_S(7) H2_lines line [null,null,null] [null,null,null] [5.5115,null,null] [0.3859788870452012,0.0,Infinity] [0.0014290678257894635,null,null] "" ""
+H2_S(6) H2_lines line [null,null,null] [null,null,null] [6.1088,null,null] [0.06419841645664605,0.0,Infinity] [0.0016721744260477375,null,null] "" ""
+H2_S(5) H2_lines line [null,null,null] [null,null,null] [6.9091,null,null] [0.790877378638647,0.0,Infinity] [0.0019426827735947358,null,null] "" ""
+H2_S(4) H2_lines line [null,null,null] [null,null,null] [8.0258,null,null] [0.29256297830083366,0.0,Infinity] [0.0022814258402954527,null,null] "" ""
+H2_S(3) H2_lines line [null,null,null] [null,null,null] [9.6649,null,null] [0.9056171654555908,0.0,Infinity] [0.0028318454696523183,null,null] "" ""
+H2_S(2) H2_lines line [null,null,null] [null,null,null] [12.2785,null,null] [0.595399029155333,0.0,Infinity] [0.004079353604433197,null,null] "" ""
+H2_S(1) H2_lines line [null,null,null] [null,null,null] [17.0346,null,null] [1.293784764814078,0.0,Infinity] [0.006502730068232861,null,null] "" ""
+H2_S(0) H2_lines line [null,null,null] [null,null,null] [null,null,null] [null,0.0,Infinity] [0.0,null,null] "" ""
+[ArII] ionic_lines line [null,null,null] [null,null,null] [6.985274,null,null] [2.763204316212489,0.0,Infinity] [0.0019438830320655598,null,null] "" ""
+[ArIII] ionic_lines line [null,null,null] [null,null,null] [8.99138,null,null] [0.40447408117262024,0.0,Infinity] [0.0027999360214385777,null,null] "" ""
+[SIV] ionic_lines line [null,null,null] [null,null,null] [10.5105,null,null] [0.6350848745582641,0.0,Infinity] [0.0033000052472172046,null,null] "" ""
+[NeII] ionic_lines line [null,null,null] [null,null,null] [12.813,null,null] [31.737218535584777,0.0,Infinity] [0.004407141409295376,null,null] "" ""
+[NeIII] ionic_lines line [null,null,null] [null,null,null] [15.555,null,null] [4.03909578610435,0.0,Infinity] [0.007156705879512411,null,null] "" ""
+[SIII]_18 ionic_lines line [null,null,null] [null,null,null] [18.713,null,null] [0.5073506094826343,0.0,Infinity] [0.010926050392009027,null,null] "" ""
+[OIV] ionic_lines line [null,null,null] [null,null,null] [25.91,null,null] [0.5073506094826343,0.0,Infinity] [0.01824406872574803,null,null] "" ""
+[FeII]_26 ionic_lines line [null,null,null] [null,null,null] [25.989,null,null] [0.5073506094826343,0.0,Infinity] [0.01837732099371634,null,null] "" ""
+[SIII]_33 ionic_lines line [null,null,null] [null,null,null] [null,null,null] [null,0.0,Infinity] [0.0,null,null] "" ""
+[SiII] ionic_lines line [null,null,null] [null,null,null] [null,null,null] [null,0.0,Infinity] [0.0,null,null] "" ""
+[FeII]_35 ionic_lines line [null,null,null] [null,null,null] [null,null,null] [null,0.0,Infinity] [0.0,null,null] "" ""
+PAH_5.3 _none_ dust_feature [null,null,null] [null,null,null] [5.27,null,null] [0.08242490948730767,0.0,Infinity] [0.17918,null,null] "" ""
+PAH_5.7 _none_ dust_feature [null,null,null] [null,null,null] [5.7,null,null] [0.15903671212959394,0.0,Infinity] [0.1995,null,null] "" ""
+PAH_6.2 _none_ dust_feature [null,null,null] [null,null,null] [6.22,null,null] [0.8165757202362276,0.0,Infinity] [0.1866,null,null] "" ""
+PAH_6.7 _none_ dust_feature [null,null,null] [null,null,null] [6.69,null,null] [0.23595792585626138,0.0,Infinity] [0.4683,null,null] "" ""
+PAH_7.7a PAH_7.7_cmp dust_feature [null,null,null] [null,null,null] [7.42,null,null] [0.4832098992480121,0.0,Infinity] [0.93492,null,null] "" ""
+PAH_7.7b PAH_7.7_cmp dust_feature [null,null,null] [null,null,null] [7.6,null,null] [0.5233087951031404,0.0,Infinity] [0.3344,null,null] "" ""
+PAH_7.7c PAH_7.7_cmp dust_feature [null,null,null] [null,null,null] [7.85,null,null] [0.5527347687813404,0.0,Infinity] [0.41605,null,null] "" ""
+PAH_8.3 _none_ dust_feature [null,null,null] [null,null,null] [8.33,null,null] [0.07031900188734126,0.0,Infinity] [0.4165,null,null] "" ""
+PAH_8.6 _none_ dust_feature [null,null,null] [null,null,null] [8.61,null,null] [0.46327450709562706,0.0,Infinity] [0.33579,null,null] "" ""
+PAH_10.7 _none_ dust_feature [null,null,null] [null,null,null] [10.68,null,null] [0.1678967374290933,0.0,Infinity] [0.2136,null,null] "" ""
+PAH_11.3a PAH_11.3_cmp dust_feature [null,null,null] [null,null,null] [11.23,null,null] [1.4600522387979946,0.0,Infinity] [0.13476,null,null] "" ""
+PAH_11.3b PAH_11.3_cmp dust_feature [null,null,null] [null,null,null] [11.33,null,null] [0.8461367037626675,0.0,Infinity] [0.36256,null,null] "" ""
+PAH_12 _none_ dust_feature [null,null,null] [null,null,null] [11.99,null,null] [0.1550451636160916,0.0,Infinity] [0.53955,null,null] "" ""
+PAH_12.6a PAH_12.6_cmp dust_feature [null,null,null] [null,null,null] [12.62,null,null] [0.42109161135816014,0.0,Infinity] [0.53004,null,null] "" ""
+PAH_12.6b PAH_12.6_cmp dust_feature [null,null,null] [null,null,null] [12.69,null,null] [0.35591812328940736,0.0,Infinity] [0.16497,null,null] "" ""
+PAH_13.48 _none_ dust_feature [null,null,null] [null,null,null] [13.48,null,null] [0.0,0.0,Infinity] [0.5392,null,null] "" ""
+PAH_14.04 _none_ dust_feature [null,null,null] [null,null,null] [14.04,null,null] [0.0,0.0,Infinity] [0.22464,null,null] "" ""
+PAH_14.19 _none_ dust_feature [null,null,null] [null,null,null] [14.19,null,null] [0.0,0.0,Infinity] [0.35475,null,null] "" ""
+PAH_15.9 _none_ dust_feature [null,null,null] [null,null,null] [15.9,null,null] [0.15611298604022705,0.0,Infinity] [0.318,null,null] "" ""
+PAH_17a PAH_17_cmp dust_feature [null,null,null] [null,null,null] [16.45,null,null] [0.44876488355745764,0.0,Infinity] [0.2303,null,null] "" ""
+PAH_17b PAH_17_cmp dust_feature [null,null,null] [null,null,null] [17.04,null,null] [0.49490270722439295,0.0,Infinity] [1.1076,null,null] "" ""
+PAH_17c PAH_17_cmp dust_feature [null,null,null] [null,null,null] [17.37,null,null] [0.1499635107900542,0.0,Infinity] [0.2085,null,null] "" ""
+PAH_17d PAH_17_cmp dust_feature [null,null,null] [null,null,null] [17.87,null,null] [0.0,0.0,Infinity] [0.28592,null,null] "" ""
+PAH_33.1 _none_ dust_feature [null,null,null] [null,null,null] [33.1,null,null] [0.0,0.0,Infinity] [1.655,null,null] "" ""
+silicate _none_ attenuation [null,null,null] [0.4094015318172949,0.0,Infinity] [null,null,null] [null,null,null] [null,null,null] S07_attenuation mixed
