@@ -1,8 +1,6 @@
 # JWST PAH Analysis Project
 _A Study of Polycyclic Aromatic Hydrocarbons_
 ---
-Lili chismosa why are you reading this
----
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
