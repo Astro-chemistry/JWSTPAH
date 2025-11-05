@@ -1,0 +1,10 @@
+ring,category,family,value,fraction
+Ring6_pypahdb_pahonly_full,charge,NEUTRAL,0.37187908287968746,0.2697847494049494
+Ring6_pypahdb_pahonly_full,charge,CATION,0.6024777131738368,0.43707566882232046
+Ring6_pypahdb_pahonly_full,charge,ANION,0.4040720576897746,0.2931395817727303
+Ring6_pypahdb_pahonly_full,size,LARGE,0.11406491142318322,0.11406491142318322
+Ring6_pypahdb_pahonly_full,size,MEDIUM,0.37013615465848065,0.37013615465848065
+Ring6_pypahdb_pahonly_full,size,SMALL,0.5157989339183361,0.5157989339183361
+Ring6_pypahdb_pahonly_full,extra,NC,3.029019505783799e+20,
+Ring6_pypahdb_pahonly_full,extra,CATION_NEUTRAL_RATIO,0.6024777131738368,
+Ring6_pypahdb_pahonly_full,extra,ERROR,0.23536290111791286,
