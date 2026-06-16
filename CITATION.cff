@@ -1,19 +1,34 @@
 cff-version: 1.2.0
-message: "If you use this code or analysis, please cite the associated paper."
-title: "JWST PAH Analysis Pipeline"
+message: "If you use this software in academic work, please cite this repository."
+
+title: "SHIRO: Spectral Homogenization, Infrared Radial Output"
+type: software
+
 authors:
-  - family-names: "Maldonado-Portilla"
-    given-names: "Juan José"
+
+* family-names: "Maldonado-Portilla"
+  given-names: "Juan José"
+
+repository-code: "https://github.com/astro-chemistry/JWSTPAH"
+
 license: "MIT"
-url: "https://github.com/astro-chemistry/JWSTPAH"
-version: "0.1.0"
-date-released: "2025-11-04"
-preferred-citation:
-  type: article
-  authors:
-    - family-names: "Maldonado-Portilla"
-      given-names: "Juan José"
-  title: "PAH Emission Mapping with JWST/MIRI"
-  journal: "TBD (in preparation)"
-  year: 2025
-  note: "Preprint / DOI will be added upon publication."
+version: "1.0.0"
+
+keywords:
+
+* JWST
+* MIRI
+* MRS
+* PAH
+* infrared spectroscopy
+* galaxy evolution
+* NGC 7469
+
+abstract: >
+SHIRO (Spectral Homogenization, Infrared Radial Output) is a pipeline
+for spatially resolved analysis of polycyclic aromatic hydrocarbon
+(PAH) emission in galaxies observed with JWST/MIRI MRS integral-field
+spectroscopy. The workflow includes spectral-cube loading, PSF
+homogenization, annular spectral extraction, spectral stitching,
+PAHFIT decomposition, Monte Carlo uncertainty propagation, and PAHdb
+population analysis.
