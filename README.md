@@ -1,40 +1,77 @@
-# JWST PAH Analysis Project
+# SHIRO: Spectral Homogenization, Infrared Radial Output
 
-Analysis of polycyclic aromatic hydrocarbons (PAHs) in galaxies observed with JWST/MIRI IFU. This repository contains notebooks for extracting radial annular spectra, stitching spectral channels, and testing PAHFIT/PAHdb decomposition to study PAH size, ionization, and structure variations from galaxy nuclei toward star-forming regions.
+SHIRO is a JWST/MIRI MRS analysis pipeline for spatially resolved studies of polycyclic aromatic hydrocarbon (PAH) emission in galaxies.
+
+Developed and tested using observations of NGC 7469, the pipeline provides an end-to-end workflow for extracting annular spectra, stitching MIRI spectral channels, performing PAHFIT decomposition, propagating uncertainties through Monte Carlo simulations, and analyzing PAH populations using PAHdb.
+
+## Pipeline Overview
+
+The notebook performs the following steps:
+
+1. Discovery and loading of MIRI/MRS spectral cubes
+2. Spatial homogenization through PSF matching
+3. Quality-assurance maps with annular overlays
+4. Annular spectral extraction
+5. Pre-stitch spectral diagnostics
+6. Spectral stitching across sub-bands and channels
+7. Spectral decomposition with PAHFIT
+8. Extraction of PAH-only spectra
+9. Monte Carlo uncertainty estimation
+10. PAH band-ratio measurements with propagated uncertainties
+11. Radial trend analysis
+12. PAH population analysis using PAHdb
 
 ## Repository Contents
 
-Whole pipeline.ipynb — current end-to-end workflow  
-Extraction.ipynb — extraction tests and notes  
-Stitching.ipynb — channel stitching tests and validation  
-PAH-fit-database.ipynb — PAHFIT / PAHdb exploration  
+* `SHIRO - Spectral Homogenization, Infrared Radial Output.ipynb`
 
-previous_versions/ — archived exploration notebooks  
-(1.0.ipynb, 1.1.ipynb, 2.0.ipynb, 2.1.ipynb, 2.2.ipynb)
+  Complete end-to-end analysis pipeline.
 
-Large FITS data products are not stored in this repository. They should be kept locally.
+## Using the Pipeline for Other Galaxies
 
-## Environment Setup
+To adapt the workflow to a new target:
 
-conda create -n jwstpah python=3.11  
-conda activate jwstpah  
-pip install -r requirements.txt  
-jupyter lab
+* Set `galaxy_folder` to the directory containing the JWST/MIRI `_s3d.fits` cubes.
+* Update `REDSHIFT` to the target galaxy value.
+* Adjust the annular extraction parameters (`num_rings`, `r0`, and `step`) as needed.
+* Verify that the PAHFIT feature names in `BAND_COMPLEXES` match those produced by PAHFIT for the target.
 
-## Local Data Structure
+## External Data Requirements
 
-data/raw/NGC7469/ should contain the CH1, CH2, and CH3 JWST/MIRI IFU cubes.
+This repository does not distribute JWST data products or PAHdb databases.
+
+### JWST Data
+
+Users must provide their own JWST/MIRI MRS `_s3d.fits` cubes.
+
+### PAHdb
+
+PAHdb files must be downloaded separately and placed in a local `PAHdb/` directory.
+
+The databases are not distributed through this repository because of their size.
+
+## Scientific Improvements Relative to Earlier Versions
+
+* Consistent redshift handling throughout the workflow
+* Science-ready PSF homogenization
+* Monte Carlo uncertainty propagation
+* PAH band-ratio uncertainties included in final plots
+* Improved robustness in PAHFIT feature extraction
 
 ## Citation
 
-If you use this repository or any part of its workflow in scientific work, please cite:
+If you use SHIRO in academic work, please cite the repository using the metadata provided in `CITATION.cff`.
 
-Maldonado-Portilla, Juan José et al.  
-"PAH Emission Mapping with JWST/MIRI"  
-In preparation (2025). DOI/arXiv will be added.
+GitHub will automatically generate citation formats through the repository's **Cite this repository** feature.
 
-Citation metadata is provided in CITATION.cff (GitHub will display “Cite this repository”).
+## Acknowledgments
+
+Developed at the Observatório do Valongo, Universidade Federal do Rio de Janeiro (UFRJ).
+
+Advisor: Karín Menéndez-Delmestre
+
+Author: Juan José Maldonado-Portilla
 
 ## License
 
-MIT License with citation notice. See LICENSE for details.
+MIT License. See `LICENSE` for details.
